@@ -27,17 +27,17 @@
             <div class="container">
                 <?php
                 if ($_SESSION['userType'] === "Admin") {
-                    echo "<a href='./check_worker_data.php'><button>Check worker data</button></a>";
-                    echo "<a href='./check_all_worker_data.php'><button>Check all worker data</button></a>";
-                    echo "<a href='./create_new_worker.php'><button>Create new worker</button></a>";
-                    echo "<a href='./edit_worker.php'><button>Edit worker</button></a>";
-                    echo "<a href='./delete_worker.php'><button>Delete worker</button></a>";
+                    echo "<a href='./forms/check_worker_data_form.html'><button>Check worker data</button></a>";
+                    echo "<a href='./forms/check_all_worker_data_form.html'><button>Check all worker data</button></a>";
+                    echo "<a href='./forms/create_new_worker_form.html'><button>Create new worker</button></a>";
+                    echo "<a href='./forms/edit_worker_form.html'><button>Edit worker</button></a>";
+                    echo "<a href='./forms/delete_worker_form.html'><button>Delete worker</button></a>";
                 } else {
-                    echo "<a href='./check_product_data.php'><button>Check product data</button></a>";
-                    echo "<a href='./check_all_product_data.php'><button>Check all product data</button></a>";
-                    echo "<a href='./create_new_product.php'><button>Create new product</button></a>";
-                    echo "<a href='./edit_product.php'><button>Edit product</button></a>";
-                    echo "<a href='./delete_product.php'><button>Delete product</button></a>";  
+                    echo "<a href='./forms/check_product_data_form.html'><button>Check product data</button></a>";
+                    echo "<a href='./forms/check_all_product_data_form.html'><button>Check all product data</button></a>";
+                    echo "<a href='./forms/create_new_product_form.html'><button>Create new product</button></a>";
+                    echo "<a href='./forms/edit_product_form.html'><button>Edit product</button></a>";
+                    echo "<a href='./forms/delete_product_form.html'><button>Delete product</button></a>";  
                 }
                 ?>
             </div>
